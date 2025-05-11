@@ -22,7 +22,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Happy Mother's Day, Mummy!
+        Happy Mother&apos;s Day, Mummy!
       </motion.h1>
 
       <motion.p
@@ -45,14 +45,14 @@ export default function Home() {
           onClick={handleButtonClick}
           className="bg-rose-500 hover:bg-rose-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-rose-600 focus:ring-opacity-50"
         >
-          You're the Best, Mummy!
+          You&apos;re the Best, Mummy!
         </button>
       </motion.div>
 
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-pink-300 bg-opacity-50 z-50">
           <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-            <h2 className="text-2xl font-bold mb-4">You're the Best, Mummy!</h2>
+            <h2 className="text-2xl font-bold mb-4">You&apos;re the Best, Mummy!</h2>
             <p className="text-gray-700 mb-6">
               Thank you for everything you do. We love you so much!
             </p>
